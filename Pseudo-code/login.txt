@@ -1,0 +1,11 @@
+START
+Prompt user to enter username and password
+IF username OR password is empty
+    Show error: "Please fill all fields"
+ELSE
+    Check credentials in database
+    IF valid
+        Redirect to dashboard
+    ELSE
+        Show error: "Invalid login"
+END

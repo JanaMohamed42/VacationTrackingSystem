@@ -1,0 +1,18 @@
+START
+User opens their vacation request list
+User selects a request to cancel
+
+IF status is "Pending"
+    Ask for confirmation
+    IF confirmed
+        Set status to "Withdrawn"
+        Notify manager
+ELSE IF status is "Approved" AND within 5 days
+    Ask for reason and confirmation
+    IF confirmed
+        Set status to "Canceled"
+        Restore balance
+        Notify manager
+ELSE
+    Show error: "Cannot cancel this request"
+END

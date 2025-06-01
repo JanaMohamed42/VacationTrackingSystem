@@ -1,0 +1,18 @@
+START
+User opens Vacation Request page
+System shows vacation types and balance
+
+User selects vacation type, dates, and adds reason
+User submits request
+
+System checks:
+    - Is vacation type valid?
+    - Is balance enough?
+
+IF all checks pass
+    Save request with status = "Pending"
+    Send email to manager
+    Show success message
+ELSE
+    Show error to user
+END

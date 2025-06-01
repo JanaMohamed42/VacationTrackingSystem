@@ -1,0 +1,21 @@
+START
+
+User logs in and opens vacation request list  
+User selects a specific vacation request  
+
+System checks:  
+ IF request status ≠ "Pending"  
+  Show error: "Only pending requests can be edited"  
+  STOP  
+
+System shows editable form  
+User updates title, dates, or reason  
+
+System checks:  
+ IF updated data is valid  
+  Save changes to database  
+  Show confirmation: "Request updated successfully"  
+ ELSE  
+  Show validation errors  
+
+END
