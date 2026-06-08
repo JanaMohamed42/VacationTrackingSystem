@@ -1,10 +1,10 @@
-# 📌 Vacation Tracking System
+#  Vacation Tracking System
 
 A web-based system that allows employees to manage their own vacation, sick leave, and personal leave easily and efficiently.
 
 ---
 
-## 🌐 Domain: Human Resources (HR)
+##  Domain: Human Resources (HR)
 
 This system belongs to the Human Resources Management domain, focusing on employee self-service leave tracking and approval.
 
@@ -16,7 +16,7 @@ It aims to:
 
 ---
 
-## 🌟 Vision
+##  Vision
 
 - Provide employees with a simple way to manage their own vacation, sick leave, and personal leave  
 - Reduce the workload of HR and managers  
@@ -25,7 +25,7 @@ It aims to:
 
 ---
 
-## ✅ Functional Requirements
+##  Functional Requirements
 
 - Validate leave requests using internal business rules  
 - Support optional manager approval  
@@ -46,7 +46,7 @@ It aims to:
 
 ---
 
-## ⚙ Non-Functional Requirements
+##  Non-Functional Requirements
 
 - Web-based interface accessible via modern browsers  
 - Easy and user-friendly UI  
@@ -56,7 +56,7 @@ It aims to:
 
 ---
 
-## 🚫 Constraints
+##  Constraints
 
 - Employees can only request leave:
   - Up to 18 months in the future  
@@ -67,12 +67,12 @@ It aims to:
 
 ---
 
-## 📊 System Diagrams
+##  System Diagrams
 
 
 ---
 
-## 👤 Actors
+##  Actors
 
 - *Employee:* Requests and manages leave  
 - *Manager:* Approves or rejects employee requests  
@@ -81,7 +81,7 @@ It aims to:
 
 ---
 
-## 🧩 Use Cases Covered
+##  Use Cases Covered
 
 - Submit Vacation Request  
 - Edit Pending Request  
